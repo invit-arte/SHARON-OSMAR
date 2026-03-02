@@ -45,6 +45,16 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"
         ></script>
+
+        <script>
+        document.addEventListener("click", function(){
+            const audio = document.getElementById("miaudio");
+            if (audio.paused) {
+            audio.play();
+            }
+        });
+
+    </script>
     <style>
         body,
         html {
@@ -57,7 +67,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url("images/BODA.png"); /* TU IMAGEN */
+    background-image: url("images/BODA1.png"); /* TU IMAGEN */
     background-size: cover;
     background-position: center;
     }
@@ -94,6 +104,9 @@
     </style>
 </head>
     <body>
+        <audio id="miaudio" autoplay loop >
+            <source src="images/DieWithASmile.mp3" type="audio/mpeg" >
+        </audio>
         <div class="contenedor">
             <!-- style="background-color: blue;" 
             <a  style="background-color: rgb(255, 0, 212);"
@@ -102,9 +115,10 @@
                 class="boton-inferior"
             >-->
             <!--<a style="background-color: blue;"  class="btn btn1" href="https://maps.app.goo.gl/E4MMkVinV82oMsWn6" target="_blank"></a>-->
-            <a class="btn btn2" href="https://maps.app.goo.gl/E4MMkVinV82oMsWn6" target="_blank"></a>
-            <a class="btn btn3" href="https://maps.app.goo.gl/E4MMkVinV82oMsWn6" target="_blank"></a>
+            <a class="btn btn2" href="https://wa.me/525620881080?text=Claro%20que%20asistir%C3%A9%20a%20la%20boda" target="_blank"></a>
+            <a class="btn btn3" href="https://maps.app.goo.gl/2rZW79rt9FqMumi76" target="_blank"></a>
         </div>
     </body>
 </html>
+
 
